@@ -1,0 +1,70 @@
+.tictactoe{
+    float: left;
+    width:50%;
+    margin-left: 379px;
+    margin-top: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #3017b8;
+    color: #df9029;
+    font-family: 'Times New Roman', Times, serif;
+}
+#container {
+    width: auto;
+    overflow: auto;
+    margin: 40px auto;
+    background-color: #82fcf4;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 70px;
+    border-radius: 10px
+  }
+
+.play-board {
+    margin-top: 25px;
+    background: #efefef;
+    border: solid 10px #470505
+  }
+  .play-board .play-board-title
+  {
+    text-align: center;
+    font-size: 38pt;
+  }
+  .play-board .play-board-title h3{
+    margin: 0px;
+
+  }
+  .board-size {
+    font-size: larger;
+    text-align: center;
+    margin-left: 666px;
+  }
+  .game-setup p{
+    text-align: center;
+    font-size: 20pt;
+  }
+
+  .play-board td {
+    background-color: #3017b8;;
+    width: 100px;
+    height: 100px;
+    border: solid 3px #330f0f;
+    text-align: center;
+    font-size: 40pt;
+    border-radius: 3px;
+    box-sizing: border-box
+  }
+  .play-board td:hover {
+    cursor: pointer
+  }
+
+  .play-board td.x {
+    color:#9cffe4 !important
+  }
+
+  .play-board td.o {
+    color: #ff8d00 !important
+  }
